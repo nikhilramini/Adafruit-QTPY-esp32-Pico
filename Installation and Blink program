@@ -31,7 +31,7 @@ Click the Install button and wait for it to finish. Once it is finished, you can
 
 In the Tools → Board submenu you should see ESP32 Arduino and in that dropdown it should contain the ESP32 boards along with all the latest ESP32 boards.
 
-Look for the Adafruit QTPY ESP32.
+Look for the board called Adafruit QT Py ESP32.
 
 BLINK PROGRAM
 
@@ -39,28 +39,53 @@ Start up Arduino IDE and Select Board/Port
 Open the Arduino IDE on your computer. Now you have to tell the IDE what board you are using, and how you want to connect to it.
 In the IDE find the Tools menu. You will use this to select the board.
 
+Install NeoPixel Library
+
+You will need to add support by installing the library. Go to the Library Manager. 
+Sketch -> Include Library -> Library Manager
+Search for and install the Adafruit NeoPixel library. Install version 1.10.0
+
 New Blink Sketch
 From the File menu, select 
 Then in the new window, copy and paste this program:
 
-int led = LED_BUILTIN;
+#include <Adafruit_NeoPixel.h>
 
+// How many internal neopixels do we have? some boards have more than one!
+#define NUMPIXELS        1
+
+Adafruit_NeoPixel pixels(NUMPIXELS, PIN_NEOPIXEL, NEO_GRB + NEO_KHZ800);
+
+// the setup routine runs once when you press reset:
 void setup() {
-  // Some boards work best if we also make a serial connection
   Serial.begin(115200);
 
-  // set LED to be an output pin
-  pinMode(led, OUTPUT);
+#if defined(NEOPIXEL_POWER)
+  // If this board has a power control pin, we must set it to output and high
+  // in order to enable the NeoPixels. We put this in an #if defined so it can
+  // be reused for other boards without compilation errors
+  pinMode(NEOPIXEL_POWER, OUTPUT);
+  digitalWrite(NEOPIXEL_POWER, HIGH);
+#endif
+
+  pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
+  pixels.setBrightness(20); // not so bright
 }
 
+// the loop routine runs over and over again forever:
 void loop() {
-  // Say hi!
+  // say hi
   Serial.println("Hello!");
   
-  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(500);                // wait for a half second
-  digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
-  delay(500);                // wait for a half second
+  // set color to red
+  pixels.fill(0xFF0000);
+  pixels.show();
+  delay(500); // wait half a second
+
+  // turn off
+  pixels.fill(0x000000);
+  pixels.show();
+  delay(500); // wait half a second
 }
 
 Verify (Compile) Sketch
@@ -78,13 +103,11 @@ No device found on COM66 (or whatever port is selected)
 An error occurred while uploading the sketch
 
 This could be a few things.
+This could be a few things.
 
-First up, check again that you have the correct board selected! Many electronics boards have very similar names or look, and often times folks grab a board different from what they thought.
-
-Second, make sure you selected the right port! If you have the wrong port or no port selected, Arduino doesn't know where to look for your board.
-
+Check again that you have the correct board selected! Many electronics boards have very similar names or look, and often times folks grab a board different from what they thought.
 Finally, a Blink!
 
 For more detailed information please navigate to this website
 
-https://learn.adafruit.com/adafruit-esp32-feather-v2/arduino-ide-setup?gad_source=2&gclid=EAIaIQobChMI-6Sqj_GKhAMVJ3N_AB3QZg9VEAEYASABEgI0kfD_BwE
+https://learn.adafruit.com/adafruit-qt-py-esp32-pico/arduino-ide-setup
