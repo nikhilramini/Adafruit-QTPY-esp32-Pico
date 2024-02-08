@@ -5,6 +5,7 @@ Adafruit-QTPY-esp32-Pico
 Installation 
 Blink program
 
-# Raspberry Pi
-## Installation and Blink program
-### XIAO Expansion Board Display
+# Guide
+## Raspberry Pi
+### Installation and Blink program
+#### XIAO Expansion Board Display
