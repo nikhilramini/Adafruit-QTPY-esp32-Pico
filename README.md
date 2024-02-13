@@ -7,5 +7,5 @@ Blink program
 
 # Guide
 ## Raspberry Pi
-### Installation and Blink program
-#### XIAO Expansion Board Display
+## Installation and Blink program
+## XIAO Expansion Board Display
