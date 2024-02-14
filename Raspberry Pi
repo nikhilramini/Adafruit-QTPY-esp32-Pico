@@ -1,8 +1,20 @@
 This guide gives detailed overview how to get started ith raspberry pi 
 Begin with the raspberry OS installation. Install Raspberry Pi OS using Raspberry Pi Imager. 
-Use this link to [download](https://www.raspberrypi.com/software/ (or) https://www.raspberrypi.com/software/operating-systems/)
-Open the raspberry pi imager application select choose device and select the device you are using(select the model). Choose the OS, choose storage(sd card). You can also edit the settings like username and password. Set the locale settings(adding time zone), now flash the os into sd card.
-Now you can fix the parts. For detailed information on how to fix the parts use this link https://youtu.be/DdnzSmJ5Fxg?si=YDYS_Bi70eTiWGiy. Note: This is reference for setting up the parts.
+Use this link to https://www.raspberrypi.com/software/ (or) https://www.raspberrypi.com/software/operating-systems/ download
+Open the raspberry pi imager application select choose device and select the device you are using(select the model). 
+Choose the OS, choose storage(sd card). You can also edit the settings like username and password
+(You can also change them later through command line using sudo raspi-config command, but it's better to change here). 
+Set the locale settings(adding time zone), now flash the os into sd card.
+Now you can fix the parts. You need to insert SD card after seeting up the equipment.
+For detailed information on how to fix the parts use this link https://youtu.be/DdnzSmJ5Fxg?si=YDYS_Bi70eTiWGiy. Note: This is reference for setting up the parts.
 For getting started with raspberry pi follow this links https://youtu.be/aR9-gbZvBh0?si=jhLzmiA2kFvTqd6E and https://youtu.be/bea7g5isD0w?si=KTFwbOSb_EdKQ-TD
 Check the description of the videos for the github links.
 Follow the link below to get detailed overview https://youtu.be/bea7g5isD0w?si=n5sUUBpQowxnjzMq
+Once you log in to the raspberry desktop you can use the comand sudo raspi-config to make changes to password or to set time zone and language.
+As we are in US we need to select en_US.UTF-8 UTF-8
+On next selct screen select en_US.UTF-8. Now reboot to make the changes reflect.
+df -h command gives info about the sd card storage
+To increase the storage use the command sudo raspi-config, selct advanced options -> Expand file system.
+You will get a gateway EUI use that EUI to register your gateway in The Things Network.
+Follow this link for detailed information 
+https://www.thethingsindustries.com/docs/gateways/concepts/adding-gateways/#:~:text=CLI-,Adding%20Gateways%20using%20the%20Console,click%20on%20Continue%20without%20EUI
