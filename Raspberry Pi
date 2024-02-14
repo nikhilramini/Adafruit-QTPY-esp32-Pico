@@ -6,7 +6,7 @@ Choose the OS, choose storage(sd card). You can also edit the settings like user
 (You can also change them later through command line using sudo raspi-config command, but it's better to change here). 
 Set the locale settings(adding time zone), now flash the os into sd card.
 Now you can fix the parts. You need to insert SD card after seeting up the equipment.
-For detailed information on how to fix the parts use this link https://youtu.be/DdnzSmJ5Fxg?si=YDYS_Bi70eTiWGiy. Note: This is reference for setting up the parts.
+For detailed information on how to fix the parts use this [link](https://youtu.be/DdnzSmJ5Fxg?si=YDYS_Bi70eTiWGiy). Note: This is reference for setting up the parts.
 For getting started with raspberry pi follow this links https://youtu.be/aR9-gbZvBh0?si=jhLzmiA2kFvTqd6E and https://youtu.be/bea7g5isD0w?si=KTFwbOSb_EdKQ-TD
 Check the description of the videos for the github links.
 Follow the link below to get detailed overview https://youtu.be/bea7g5isD0w?si=n5sUUBpQowxnjzMq
