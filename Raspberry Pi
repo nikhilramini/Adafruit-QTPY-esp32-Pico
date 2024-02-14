@@ -1,5 +1,6 @@
 This guide gives detailed overview how to get started ith raspberry pi 
-Begin with the raspberry OS installation. Install Raspberry Pi OS using Raspberry Pi Imager. Use this link https://www.raspberrypi.com/software/ (or) https://www.raspberrypi.com/software/operating-systems/ to download.
+Begin with the raspberry OS installation. Install Raspberry Pi OS using Raspberry Pi Imager. 
+Use this link to [download](https://www.raspberrypi.com/software/ (or) https://www.raspberrypi.com/software/operating-systems/)
 Open the raspberry pi imager application select choose device and select the device you are using(select the model). Choose the OS, choose storage(sd card). You can also edit the settings like username and password. Set the locale settings(adding time zone), now flash the os into sd card.
 Now you can fix the parts. For detailed information on how to fix the parts use this link https://youtu.be/DdnzSmJ5Fxg?si=YDYS_Bi70eTiWGiy. Note: This is reference for setting up the parts.
 For getting started with raspberry pi follow this links https://youtu.be/aR9-gbZvBh0?si=jhLzmiA2kFvTqd6E and https://youtu.be/bea7g5isD0w?si=KTFwbOSb_EdKQ-TD
