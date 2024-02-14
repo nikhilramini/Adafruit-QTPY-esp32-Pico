@@ -6,6 +6,6 @@ Installation
 Blink program
 
 # Guide
-## Raspberry Pi
+## [Raspberry Pi]([url](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/Raspberry%20Pi)https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/Raspberry%20Pi)
 ## Installation and Blink program
 ## XIAO Expansion Board Display
