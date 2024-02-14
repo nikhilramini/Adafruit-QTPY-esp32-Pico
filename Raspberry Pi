@@ -15,6 +15,9 @@ As we are in US we need to select en_US.UTF-8 UTF-8
 On next selct screen select en_US.UTF-8. Now reboot to make the changes reflect.
 df -h command gives info about the sd card storage
 To increase the storage use the command sudo raspi-config, selct advanced options -> Expand file system.
+You can get EUI address by using these commands
+ip link show eth0 - if you are using ethernet cable
+ip link show wlan0 - if using router
 You will get a gateway EUI use that EUI to register your gateway in The Things Network.
 Follow this link for detailed information 
 https://www.thethingsindustries.com/docs/gateways/concepts/adding-gateways/#:~:text=CLI-,Adding%20Gateways%20using%20the%20Console,click%20on%20Continue%20without%20EUI
