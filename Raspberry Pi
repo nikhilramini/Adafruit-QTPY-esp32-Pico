@@ -1,4 +1,12 @@
 This guide gives a detailed overview of how to get started with raspberry pi 
+## Product Description
+Product Name: Raspberry Pi 3 
+Product Description: The Raspberry Pi 3 Model B is the third generation Raspberry Pi. 
+This powerful credit-card sized single board computer can be used for many applications and supersedes the original Raspberry Pi Model B+ and Raspberry Pi 2 Model B. 
+Whilst maintaining the popular board format the Raspberry Pi 3 Model B brings you a more powerful processer, 10x faster than the first generation Raspberry Pi. 
+Additionally it adds wireless LAN & Bluetooth connectivity making it the ideal solution for powerful connected designs.
+
+
 Begin with the raspberry OS installation. Install Raspberry Pi OS using Raspberry Pi Imager. 
 Use this link to https://www.raspberrypi.com/software/ (or) https://www.raspberrypi.com/software/operating-systems/ download
 Open the raspberry pi imager application select choose device and select the device you are using(select the model). 
