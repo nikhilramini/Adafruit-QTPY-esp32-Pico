@@ -1,3 +1,11 @@
+Product Name: Adafruit QT PY ESP32
+Product description: This QT Py board is a thumbnail-sized PCB that features the ESP32-Pico-V3-02, an all-in-one chip that has an ESP32 chip
+with dual-core 240MHz Tensilica processor, WiFi and Bluetooth classic + BLE, adds a bunch of required passives and oscillator, 8 MB of Flash memory and 2 MB of PSRAM. 
+We add a USB to serial converter chip, some more passives, an antenna, USB C, buttons, NeoPixel and QT connector to outfit this super-hero 
+chip for any task you want to throw it at.
+
+Getting statred with QT PY ESP32
+
 Arduino IDE Setup
 Install Arduino - The first thing you will need to do is to download the latest release of the Arduino IDE.
 https://www.arduino.cc/en/software
