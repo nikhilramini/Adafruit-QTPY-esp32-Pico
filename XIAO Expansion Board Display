@@ -1,3 +1,14 @@
+
+Product Name : Seeed Studio XIAO Expansion Board
+
+Seeed Studio XIAO Expansion Board is a powerful functional expansion board for the Seeed Studio XIAO series. 
+This board is only half the size of the Raspberry Pi 4. The XIAO expansion board features quick prototyping, rich peripherals, and
+supports circuit python. This board includes rich peripherals
+such as OLED, RTC, SD card slot, grove connectors, lipo battery charging, buzzer, reset button, and SWD pins.
+The Seeeduino XIAO expansion board provides high-cost performance, plug and play, and needs no soldering. 
+Typical applications include SWD debugging, rapid prototyping, data display, and mini-size projects.
+
+# Programs(Hello world, Blink, User_input and Blink programs)
 Adafruit QT Py ESP32 Pico using the Adafruit SSD1306 library
 
 1. Blink program
