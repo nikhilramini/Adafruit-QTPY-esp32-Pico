@@ -6,6 +6,7 @@ supports circuit python. This board includes rich peripherals
 such as OLED, RTC, SD card slot, grove connectors, lipo battery charging, buzzer, reset button, and SWD pins.
 The Seeeduino XIAO expansion board provides high-cost performance, plug and play, and needs no soldering. 
 Typical applications include SWD debugging, rapid prototyping, data display, and mini-size projects.
+For more info follow the link https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/ 
 
 # Programs(Hello world, Blink, User_input and Blink programs)
 Adafruit QT Py ESP32 Pico using the Adafruit SSD1306 library
