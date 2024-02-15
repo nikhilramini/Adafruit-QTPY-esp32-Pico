@@ -1,6 +1,6 @@
 # LORAWAN
 
-This repository gives an overview of how to setup Raspberry pi, Adafruit QT PY ESP32 PICO and Seeed Studio XIAO Expansion Board. This guide gives detailed information on how to install Raspberry OS and configuration with the RAK HAT. Connecting to The Things Network. Setting up Adafruit QT PY ESP32 PICO micro-controller with Seeed Studio XIAO Expansion Board.
+This repository provides a comprehensive guide on setting up various hardware components, including the Raspberry Pi, Adafruit QT PY ESP32 PICO, and Seeed Studio XIAO Expansion Board. The guide offers detailed instructions on installing the Raspberry OS and configuring it with the RAK HAT. It covers the process of connecting to The Things Network and provides step-by-step guidance on setting up the Adafruit QT PY ESP32 PICO micro-controller with the Seeed Studio XIAO Expansion Board. Additionally, the guide includes instructions for installing the Adafruit-QTPY-esp32-Pico and implementing a Blink program.
 Adafruit-QTPY-esp32-Pico
 Installation 
 Blink program
