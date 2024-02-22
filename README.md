@@ -6,3 +6,4 @@ This repository provides a comprehensive guide on setting up various hardware co
 ## [Raspberry Pi](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/Raspberry%20Pi)
 ## [Installation and Blink program](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/Installation%20and%20Blink%20program)
 ## [XIAO Expansion Board Display](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/XIAO%20Expansion%20Board%20Display)
+## [Grove-Lora-E5](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/Grove-Lora-E5)
