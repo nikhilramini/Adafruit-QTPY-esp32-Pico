@@ -28,6 +28,11 @@ Communication Connection (Serial/UART):
 Connect the TXD pin of the Grove LoRa E5 module to a GPIO pin that supports UART TX on the QT Py ESP32.
 Connect the RXD pin of the Grove LoRa E5 module to a GPIO pin that supports UART RX on the QT Py ESP32.
 
+Communication Connection (Serial/UART using Bread-board):
+
+Connect the TX pin of the Grove LoRa E5 module to the bread board and connect the QT Py ESP32 RX.
+Connect the RX pin of the Grove LoRa E5 module to the bread board and connect the QT Py ESP32 TX.
+
 Power Up:
 
 Ensure the connections are secure and correct.
