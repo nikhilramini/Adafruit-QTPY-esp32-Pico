@@ -29,7 +29,41 @@ You can get EUI address by using these commands
 ip link show eth0 - if you are using ethernet cable
 ip link show wlan0 - if using router
 You will get a gateway EUI use that EUI to register your gateway in The Things Network.
+
+# Adding Gateways
+
+https://console.cloud.thethings.network/
+Follow the link and click a cluster(i.e, where your gateway is operating(location) in my case it is North America nam1)
+
+1. Go to Gateways in the top menu, and click + Register Gateway to reach the gateway registration page.
+
+2. Fill the Gateway EUI and click Confirm. Some gateways do not use a Gateway EUI (e.g. The Things Kickstarter Gateway), in which case you can 
+just click on Continue without EUI.
+
+3. Depending on whether the Gateway EUI is claimable you will either be shown the claiming form or the manual registration form.
+
+4. On the manual registration form fill in the Frequency Plan and the Gateway ID if it was not pre filled, The other fields are optional. 
+Click Register Gateway to finish. Use the frequency United States 902-928 MHz, FSB 2 Used by TTN.
+
+5. Your gateway will be created and you will be redirected to the gateway overview page of your newly created gateway.
+
+# Set Gateway Location
+
+1. Once you have added your gateway to The Things Stack, you can also set its location to be displayed on a map widget by clicking Change 
+location settings.
+
+2. If you want your gateway’s location to be publicly displayed, check the Publish location box.
+
+3. The gateway location can be manually set by entering the Latitude, Longitude and Altitude values.
+
+4. You can also check the Update from status messages box if you want to update the location based on the metadata from the incoming uplink 
+gateway status messages. The location settings you manually entered will be overwritten by the updates from the gateway status messages.
+
+5. Note: If you change the physical location of your gateway, the location update in The Things Stack will take place only after you restart the 
+gateway.
+
 Follow this link for detailed information 
 https://www.thethingsindustries.com/docs/gateways/concepts/adding-gateways/#:~:text=CLI-,Adding%20Gateways%20using%20the%20Console,click%20on%20Continue%20without%20EUI
+
 For configuring the Pi follow this link https://www.raspberrypi.com/documentation/computers/configuration.html - This is the official document.
 
