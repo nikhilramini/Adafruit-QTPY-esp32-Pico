@@ -308,7 +308,7 @@ filled when we fill DevEUI. For AppKey field, use: 2B7E151628AED2A6ABF7158809CF4
 
 Finally click Register end device.
 
-Step 14. Go back to the application page and navigate to End devices, select the created device and click Live data. 
+Step 14. Go back to the application page and navigate to End devices, select the created device and click Live data.
 Here you will see the data displayed in real-time!
 
 
