@@ -30,6 +30,39 @@ ip link show eth0 - if you are using ethernet cable
 ip link show wlan0 - if using router
 You will get a gateway EUI use that EUI to register your gateway in The Things Network.
 
+
+# Cloning Repository
+
+We are cloning a github repository. To clone the repository enter the command
+git clone https://github.com/robertlie/RAK831-LoraGateway-RPi ~/rak831-loragateway - using CLI
+https://github.com/robertlie/RAK831-LoRaGateway-RPi - Github link
+
+After cloning use the command ls -al you should see the cloned folder rak-831loragateway.
+Now go to this repository using cd rak-831loragateway use ls -al. You should see an install script.
+Enter this command to execute install script sudo ./install.sh
+You will see Gateway EUI. Set the configurations like region, latitude, longitude and altitude.
+After install script is executed the system reboots.
+
+Login into raspberry pi go to the folder opt i.e cd /opt then go to this folder cd /ttn-gateway
+Install script installs lora_gateway and packet_forwarder packages. go to packet_forwarder i.e cd /packet_forwarder 
+check the ttn-gateway status by using this command systemctl status ttn-gateway -l
+This should be active and run withou errors.
+
+Installing Global Json and Local Json
+
+Global configuration json file is main file it contains information related to frequency, gateway EUI.
+Install script installs global and local json files, but we will use different files.
+
+now go to cd lora_pkt_fwd folder this folder contains global_conf.json file
+Rename this file mv global_conf.json global_conf.json_orig
+
+My gateway is operating in US so download this file
+wget https://githubusercontent.com/TheThingsNetwork/gateway-conf/master/US-global_conf.json
+After downloading this file rename this file mv US-global_conf.json global_conf.json
+Reboot the raspberry pi
+Check ttn-gateway server status systemctl status ttn-gateway -l there should be no errors
+In the global_conf.json check all parameters and make sure that they align with your region like frequency, the region you are operating, etc.
+
 # Adding Gateways
 
 https://console.cloud.thethings.network/
