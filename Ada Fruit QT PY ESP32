@@ -41,8 +41,6 @@ In the Tools → Board submenu you should see ESP32 Arduino and in that dropdown
 
 Look for the board called Adafruit QT Py ESP32.
 
-![QT PY ESP 32](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/assets/81555066/11ed5d85-2b80-4516-8d8d-460d063f736d)
-
 BLINK PROGRAM
 
 Start up Arduino IDE and Select Board/Port
