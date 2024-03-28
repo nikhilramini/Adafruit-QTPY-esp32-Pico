@@ -5,5 +5,7 @@ This repository provides a comprehensive guide on setting up various hardware co
 # Guide
 ## [Raspberry Pi](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/Raspberry%20Pi)
 ## [Ada Fruit QT PY ESP32](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/Ada%20Fruit%20QT%20PY%20ESP32)
+__Figure 1 Ada Fruit QT PY ESP 32 Pico__
+![WhatsApp Image 2024-03-25 at 10 11 43 AM](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/assets/81555066/7a21647b-59b6-4ca4-9e6e-4506def74f43)
 ## [XIAO Expansion Board](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/XIAO%20Expansion%20Board%20Display)
 ## [Grove-Lora-E5](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/Grove-Lora-E5)
