@@ -9,3 +9,6 @@ __Figure 1 Ada Fruit QT PY ESP 32 Pico__
 ![WhatsApp Image 2024-03-25 at 10 11 43 AM](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/assets/81555066/7a21647b-59b6-4ca4-9e6e-4506def74f43)
 ## [XIAO Expansion Board](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/XIAO%20Expansion%20Board%20Display)
 ## [Grove-Lora-E5](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/blob/main/Grove-Lora-E5)
+__Figure 2 Connection to THE THINGS NETWORK__
+
+![WhatsApp Image 2024-03-25 at 10 11 43 AM (2)](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/assets/81555066/ad1c83f1-1c21-4cb3-8dc3-9308d80f3b38)
