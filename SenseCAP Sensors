@@ -1,1 +1,11 @@
+#Product Details
+Product Name: SenseCAP S2105 - LoRaWAN Soil Moisture, Temperature and EC Sensor
+Product description: LoRaWAN Soil Moisture, Temperature, and EC Sensor, SenseCAP S2105. An IP66 wireless soil moisture, temperature, and EC 
+sensor that runs on batteries. Its measurement ranges are 0 ~ 100% (m³/m³), -40 ~ 80℃, and 0 to 23 dS/m. It also has built-in Bluetooth and APP 
+service for remote device management and OTA configuration.
+
+#Getting Started
+Download the SenseCAP Mate app from appstore or playstore
+You can also create an account via the SenseCAP Portal: http://sensecap.seeed.cc
+LED indicator on the Sensor Node and its status
 
