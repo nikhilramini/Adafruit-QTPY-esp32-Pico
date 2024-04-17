@@ -12,3 +12,5 @@ __Figure 1 Ada Fruit QT PY ESP 32 Pico__
 __Figure 2 Connection to THE THINGS NETWORK__
 
 ![WhatsApp Image 2024-03-25 at 10 11 43 AM (2)](https://github.com/nikhilramini/Adafruit-QTPY-esp32-Pico/assets/81555066/ad1c83f1-1c21-4cb3-8dc3-9308d80f3b38)
+
+## [SenseCAP S2105 Sensors]()
