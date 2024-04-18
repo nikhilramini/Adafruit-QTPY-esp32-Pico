@@ -9,3 +9,34 @@ Download the SenseCAP Mate app from appstore or playstore
 You can also create an account via the SenseCAP Portal: http://sensecap.seeed.cc
 LED indicator on the Sensor Node and its status
 
+Actions, Description and Green LED Status
+
+Actions -> Description: First power up, press and hold for 3s -> Power on and activate the Bluetooth.
+
+Green LED Status: LED flashes at 1s frequency, waiting for Bluetooth connection. If Bluetooth not connected within1 minute, the machine would shut down again.
+
+Actions -> Description: Press once ->	Reboot device and join LoRa network	
+
+Green LED Status:
+
+1. The LED will be on for 5 seconds for initialization 
+
+2. Waiting for join LoRa network: breathing light flashing 
+
+3. Join LoRa network success: LED flashes fast for 2s 
+
+4. LoRa network join failure: LED suddenly stop.
+
+Actions -> Description: Press and hold for 3s ->	Activate Bluetooth again	
+
+Green LED Status:
+
+1. Waiting for Bluetooth connection: LED flashes at 1s frequency 
+
+2. Enter configuration mode after Bluetooth connection is successful: LED flashes at 2s frequency If Bluetooth is not connected within1 minute, the device will reboot and join LoRa network.
+
+Actions -> Description: Press and hold for 9s ->	Power off	
+
+Green LED Status:
+
+In the 3rd seconds will start flashing at 1s frequency, until the light is steady on, release the button, the light will go out.
