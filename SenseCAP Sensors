@@ -15,7 +15,7 @@ Actions -> Description: First power up, press and hold for 3s -> Power on and ac
 
 Green LED Status: LED flashes at 1s frequency, waiting for Bluetooth connection. If Bluetooth not connected within1 minute, the machine would shut down again.
 
-Actions -> Description: Press once ->	Reboot device and join LoRa network	
+Actions -> Description: Press once -> Reboot device and join LoRa network	
 
 Green LED Status:
 
@@ -35,7 +35,7 @@ Green LED Status:
 
 2. Enter configuration mode after Bluetooth connection is successful: LED flashes at 2s frequency If Bluetooth is not connected within1 minute, the device will reboot and join LoRa network.
 
-Actions -> Description: Press and hold for 9s ->	Power off	
+Actions -> Description: Press and hold for 9s -> Power off	
 
 Green LED Status:
 
